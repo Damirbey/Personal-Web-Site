@@ -1,0 +1,128 @@
+body{
+  text-align:center;
+  margin:0;
+}
+.bottom-cloud{
+  position:absolute;
+  left:320px;
+}
+.top-cloud{
+  position:absolute;
+  right:320px;
+  top:10px;
+}
+.top-container{
+  background-color:#E4F9F5;
+  padding-top:90px;
+}
+h1{
+  color: #66BFBF;
+  font-size:5.625rem;
+  margin-bottom:0;
+  font-family:'Sacramento', cursive;
+}
+h2{
+  color:#66BFBF;
+  font-size:2.5rem;
+  margin-top:10px;
+  font-family:'Montserrat', sans-serif;
+}
+.skillsHeading{
+  color:#11999E;
+  font-family: 'Merriweather', serif;
+  text-align: left;
+}
+h3{
+  color:#11999E;
+  font-family: 'Merriweather', serif;
+}
+.pro{
+  text-decoration:underline;
+}
+.profile-picture{
+  width:300px;
+  height:300px;
+}
+.generalInfo {
+  color:#40514E;
+  width:500px;
+  margin:0 auto;
+  text-align:left;
+}
+.skillText{
+  color:#40514E;
+  text-align:left;
+}
+.contactMe{
+  color:#40514E;
+  text-align:center;
+  width:500px;
+  margin:20px auto;
+}
+.skill-row{
+  width:800px;
+  margin:0 auto;
+  height:250px;
+  padding:10px;
+}
+.skill-one{
+  width:200px;
+  height:200px;
+  float:left;
+  margin-right:10px;
+}
+.skill-two{
+  width:200px;
+  height:200px;
+  float:right;
+  margin-left:10px;
+}
+
+hr{
+  width:4%;
+  margin:100px auto;
+  border:dotted #EAF6F6 10px;
+  border-bottom:none;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+  margin-top:10px;
+  margin-bottom:30px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  background-color:#66BFBF;
+  padding:20px;
+}
+.bottom-container p{
+  color:#EAF6F6;
+  margin-top:20px;
+}
+.bottom-container a{
+  color:#11999E;
+  text-decoration: none;
+  padding:10px;
+}
+.bottom-container a:hover{
+  color:white;
+}
